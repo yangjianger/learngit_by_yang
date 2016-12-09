@@ -37,7 +37,7 @@ class CountryController extends Controller
     {
         $searchModel = new CountrySearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        echo 'Git has a mutable indstage.';
+        echo 'Git has a mutable.';
         var_dump($dataProvider);exit;
 
         return $this->render('index', [
