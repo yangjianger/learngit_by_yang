@@ -36,7 +36,7 @@ class PostController extends Controller
     public function actionIndex()
     {
         echo 'Git has a mutable index c.';
-        echo 'Git has a mutable index.ml git .html';
+        echo 'Git has a mutable index.ml giCMDDDt .html';
         $searchModel = new PostSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
